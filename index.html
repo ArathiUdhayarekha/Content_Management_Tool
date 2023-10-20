@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Management Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Content Management Tool</h1>
+        <div class="content">
+            <label for="contentTitle">Title:</label>
+            <input type="text" id="contentTitle">
+            <label for="contentBody">Body:</label>
+            <textarea id="contentBody"></textarea>
+            <button onclick="saveContent()">Save Content</button>
+        </div>
+        <div class="saved-content">
+            <h2>Saved Content</h2>
+            <ul id="contentList"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
